@@ -1,0 +1,26 @@
+{
+  "name": "rallpaper",
+  "version": "1.0.0",
+  "description": "Change your wallpaper to a random one!",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RedBeardCory/rallpaper.git"
+  },
+  "bin": {
+    "rallpaper":"./index.js"
+  },
+  "keywords": [
+    "wallpaper",
+    "random"
+  ],
+  "author": "Cory Patterson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RedBeardCory/rallpaper/issues"
+  },
+  "homepage": "https://github.com/RedBeardCory/rallpaper#readme"
+}
