@@ -2,16 +2,16 @@
   "name": "rallpaper",
   "version": "1.0.0",
   "description": "Change your wallpaper to a random one!",
-  "main": "index.js",
+  "main": "./src/index.js",
   "scripts": {
-    "test": "test"
+    "test": "echo no tests"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/RedBeardCory/rallpaper.git"
   },
   "bin": {
-    "rallpaper": "./index.js"
+    "rallpaper": "./src/index.js"
   },
   "keywords": [
     "wallpaper",
@@ -22,5 +22,10 @@
   "bugs": {
     "url": "https://github.com/RedBeardCory/rallpaper/issues"
   },
-  "homepage": "https://github.com/RedBeardCory/rallpaper#readme"
+  "homepage": "https://github.com/RedBeardCory/rallpaper#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "node-fetch": "^2.1.2",
+    "wallpaper": "^2.4.0"
+  }
 }
