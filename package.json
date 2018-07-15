@@ -26,6 +26,6 @@
   "devDependencies": {},
   "dependencies": {
     "node-fetch": "^2.1.2",
-    "wallpaper": "^2.4.0"
+    "wallpaper": "^2.6.0"
   }
 }

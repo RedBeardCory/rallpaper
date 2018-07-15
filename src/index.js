@@ -136,7 +136,10 @@ function run() {
     })
     .then(() => {
         // set new wallpaper here
-        wallpaper.set(((vals['--file']) ? vals['--file'] : 'rallpaper') + '.' + fType, {'scale': 'fit'});
+        wallpaper.set(((vals['--file']) ? vals['--file'] : 'rallpaper') + '.' + fType, {'scale': 'fit'})
+        .catch(e => {
+            process.stdout.write("error setting wallpaper: \n" + e);
+        });
     })
     .catch(e => {
         console.log(e);
