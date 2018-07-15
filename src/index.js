@@ -147,7 +147,7 @@ function run() {
 }
 
 function prettyPrintInfo() {
-    console.log('REEEEEEEEEEEEEEE');
+    console.log('Not yet implemented. Will be coming soon');
 }
 
 function debug() {
